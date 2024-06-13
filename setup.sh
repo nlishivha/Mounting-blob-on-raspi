@@ -40,8 +40,8 @@ chmod +x blobfuse2
 ./blobfuse2 -h
 
 ############ ADD VARIABLES ############
-export AZURE_STORAGE_ACCOUNT=sweatlabiotstorage
-export AZURE_STORAGE_ACCESS_KEY=2gbPN0ACiSSMNyCnYvowK86u+OsxRlxjuE3C20psQ6pUmFjOdCVWUm9kClFlfZidAho0AU3JddiV+AStEY21sA==
+export AZURE_STORAGE_ACCOUNT=*************************************************
+export AZURE_STORAGE_ACCESS_KEY=**********************************************
 
 ############## CREATE DIRECTORIES ##############
 # Create directories if they don't exist
@@ -49,4 +49,4 @@ mkdir -p ~/blob
 mkdir -p /home/centralserver/blob_temp
 
 ############## MOUNT ##############
-./blobfuse2 mount ~/blob --container-name=sweatlabstoragecontainer --tmp-path=/home/centralserver/blob_temp
+./blobfuse2 mount ~/blob --container-name=****************** --tmp-path=/home/centralserver/blob_temp

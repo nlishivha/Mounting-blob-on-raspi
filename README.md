@@ -1,8 +1,8 @@
 # Mounting-blob-on-raspi
 
-###Installing Blobfuse on Raspberry Pi (ARM64)
+Installing Blobfuse on Raspberry Pi (ARM64)
 
-#Blobfuse allows you to mount Azure Blob Storage as a local file system, making it easy to work with cloud storage on your Raspberry Pi. However, Raspberry Pi (ARM64) does not have a pre-built package for Blobfuse. Since Blobfuse is written in Go, you will need to manually build it from source.
+Blobfuse allows you to mount Azure Blob Storage as a local file system, making it easy to work with cloud storage on your Raspberry Pi. However, Raspberry Pi (ARM64) does not have a pre-built package for Blobfuse. Since Blobfuse is written in Go, you will need to manually build it from source.
 
 Here’s a high-level overview of the installation process:
 
